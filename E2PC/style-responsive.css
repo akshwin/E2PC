@@ -1,0 +1,157 @@
+@media(max-width:1200px){
+	.container{width: 100%; padding: 0 25px;}
+}
+@media(max-width:1024px){
+	.topbar{
+		padding: 8px 0;
+		font-size:13px;
+	}
+	header{
+		top: 20px;
+		padding: 30px 0;
+	}
+	header.fixed{
+		padding: 8px 0;
+	}
+	a.logo img{
+		width:225px; height: auto;
+	}
+	.menuicons{
+		margin: 5px 0 0 0;
+	}
+	.menuicons a{
+		width: 45px; height: 45px; line-height: 45px;
+		font-size:25px;
+	}
+	.banner{
+		padding: 200px 0 120px 0;
+	}
+	.banner .text h2{
+		font-size:60px;
+		margin-bottom: 20px;
+	}
+	.banner .playbtn img{
+		width: 80px;
+		height: auto;
+	}
+	.about{
+		padding:50px 0;
+	}
+	.contentblock{
+		padding:50px 0 50px 0;
+	}
+	.contentbox.mbt{
+		margin-bottom: 50px;
+	}
+	.contentbox .text, .contentbox .visual{
+		flex-basis: 48%;
+	}
+	.contentbox .text h3{
+		font-size:36px;
+		margin-bottom: 20px;
+	}
+	.contentbox .text p{
+		font-size:15px;
+		margin-bottom: 20px;
+	}
+	.contact{
+		padding: 0 0 50px 0;
+	}
+	.contactblock{
+		padding: 50px;
+	}
+	.contactblock h2{
+		font-size:48px;
+	}
+	.contactblock p{
+		font-size:16px;
+		margin-bottom: 30px;
+	}
+	footer{
+		padding: 0 0 50px 0;
+	}
+}
+
+@media(max-width:640px){
+	.banner .text h2{
+		font-size:48px;
+		margin-bottom: 20px;
+	}
+	.about .text{
+		width: 100%;
+	}
+	.about .text h2{
+		font-size:48px;
+	}
+	.about .text p{
+		font-size:18px;
+		margin-bottom: 20px;
+	}
+	.copyright{
+		float: left;
+		width: 100%;
+		font-size: 14px;
+	}
+	.social{
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+		font-size: 14px;
+	}
+}
+
+
+@media(max-width:520px){
+	.banner{
+		padding: 170px 0 70px 0;
+	}
+	.banner .text h2{
+		font-size:38px;
+		margin-bottom: 20px;
+	}
+	.banner .playbtn img{
+		width: 60px;
+		height: auto;
+	}
+	.about{
+		padding:40px 0;
+	}
+	.about .text h2{
+		font-size:38px;
+	}
+	.about .text p{
+		font-size:16px;
+		margin-bottom: 20px;
+	}
+	.galleryslider .item .itemcontent .overlay h3{
+		font-size: 15px;bottom:0;
+	}
+	.galleryslider .item .itemcontent .overlay p{
+		font-size: 10px;bottom:0;
+	}
+	.contactblock{
+		padding: 30px;
+	}
+	.contentbox .text, .contentbox .visual{
+		flex-basis: 100%;
+	}
+	.contentbox .visual{
+		margin-top: 30px;
+	}
+	.formblock form{
+		width: 82%;
+	}
+	.formblock form input,
+	.formblock form textarea{
+		width: 100%;
+		padding: 0 0 0 15px;
+		font-size:15px;
+	}
+	.formblock form textarea{
+		padding: 15px;
+	}
+	.formblock form button{
+		padding: 0 25px;
+		font-size: 12px;
+	}
+}
