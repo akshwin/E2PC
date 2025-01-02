@@ -8,7 +8,7 @@
 		
 		<title>Welcome to E2PC</title>
 
-		<link rel="icon" type="image/icon" href="images/favicon.png">
+		<link rel="icon" type="image/icon" href="images/logo.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -26,6 +26,55 @@
 		<script src="owlslider/owl.carousel.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<script src="contact/form.js"></script>
+
+		<style>
+			.container-centered {
+				margin: 0 auto; /* Center the container */
+				max-width: 1200px; /* Optional: limit the maximum width for better readability */
+				padding: 0 30px; /* Add padding on the left and right sides */
+			}
+			
+			.gallerysliderwrap,
+			.contentblock {
+				text-align: center; /* Center-align the content */
+			}
+			
+			.contentbox {
+				display: flex;
+				flex-wrap: wrap; /* Allow wrapping on smaller screens */
+				gap: 20px;
+				align-items: center;
+				margin-bottom: 40px;
+			}
+			
+			.text {
+				flex: 1 1 50%; /* Use 50% width for text */
+			}
+			
+			.visual {
+				flex: 1 1 50%; /* Use 50% width for images */
+				text-align: center;
+			}
+			
+			.visual img {
+				max-width: 100%; /* Make images responsive */
+				height: auto;
+				border-radius: 9px;
+			}
+			
+			@media (max-width: 768px) {
+				.contentbox {
+					flex-direction: column; /* Stack content on small screens */
+					text-align: center;
+				}
+			
+				.text, .visual {
+					flex: 1 1 100%; /* Full width on smaller screens */
+				}
+			}
+			
+		</style>
+		
 	</head>
 
 	<!--/ HEAD-->
@@ -107,7 +156,7 @@
 					</p>
 					<p>
 						The club is guided by the principles of fostering eco-friendly practices, encouraging the development of sustainable technologies, and building a community that is conscious of its environmental impact.					</p>
-						<h3>BOARD MEMBERS</h3>
+						<h1>BOARD MEMBERS</h1>
 				</div>
 				
 			</div>
@@ -116,135 +165,104 @@
 		
 		<!--/ABOUT-->
 
+		<div class="container-centered">
+			<div class="gallery flf" id="gallery">
+				<div class="gallerysliderwrap flf">
+					<div class="galleryslider owl-carousel">
+						<!-- First Column Gallery Items -->
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Rudransh</h3>
+									<p>Chairperson</p>
+								</div>
+								<img src="./images/chair.jpg" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Devika</h3>
+									<p>Vice Chairperson</p>
+								</div>
+								<img src="images/vicechair.jpg" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Akshwin</h3>
+									<p>Secretary</p>
+								</div>
+								<img src="images/sec.png" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Claire</h3>
+									<p>Co Secretary</p>
+								</div>
+								<img src="images//cosec.jpg" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Aditi</h3>
+									<p>Technical Head</p>
+								</div>
+								<img src="images/te" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		
-
-		<div class="gallery flf" id="gallery">		
-			<div class="gallerysliderwrap flf">
-				<div class="galleryslider owl-carousel">
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Chairperson</h3>
-								<p>
-									The leader steering the club's vision and initiatives toward achieving its goals.
-								</p>
+			<div class="gallery flf" id="gallery">
+				<div class="gallerysliderwrap flf">
+					<div class="galleryslider owl-carousel">
+						<!-- Second Column Gallery Items (Only 4 images) -->
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Akriti</h3>
+									<p>Management Head</p>
+								</div>
+								<img src="images/management.jpg" alt="" />
 							</div>
-							<img src="images/g1.jpg" alt="" />
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Pooja</h3>
+									<p>Outreach Head</p>
+								</div>
+								<img src="images/outreach.jpg" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Ritish</h3>
+									<p>Human Resource Head</p>
+								</div>
+								<img src="images/hr.jpg" alt="" />
+							</div>
+						</div>
+						<div class="item">
+							<div class="itemcontent tst6child">
+								<div class="overlay">
+									<h3>Sushant</h3>
+									<p>Editorial Head</p>
+								</div>
+								<img src="images/edit.jpg" alt="" />
+							</div>
 						</div>
 					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Vice Chairperson</h3>
-								<p>
-									The right hand of the chairperson, ensuring smooth execution of the club's activities.
-								</p>
-							</div>
-							<img src="images/g2.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Secretary</h3>
-								<p>
-									The backbone of the club, managing communications and organizational tasks efficiently.
-								</p>
-							</div>
-							<img src="images/g3.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Co secretary</h3>
-								<p>
-									The collaborative force supporting the secretary in maintaining seamless operations
-								</p>
-							</div>
-							<img src="images/g4.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Technical Head</h3>
-								<p>
-									The innovator leading the development and execution of technical projects and events.
-								</p>
-							</div>
-							<img src="images/g5.jpg" alt="" />
-						</div>
-					</div>
-					
 				</div>
 			</div>
-		</div>
-
-
-		<div class="gallery flf" id="gallery">		
-			<div class="gallerysliderwrap flf">
-				<div class="galleryslider owl-carousel">
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Management Head</h3>
-								<p>
-									The strategist overseeing event planning and resource allocation for club activities.
-								</p>
-							</div>
-							<img src="images/g1.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Outreach head</h3>
-								<p>
-									The connector building partnerships and expanding the club's external presence.
-								</p>
-							</div>
-							<img src="images/g2.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Human Resource Head</h3>
-								<p>
-									The people's person, fostering teamwork and managing member engagement.
-								</p>
-							</div>
-							<img src="images/g3.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Editorial Head</h3>
-								<p>
-									The wordsmith crafting impactful content and overseeing the club's publications.
-								</p>
-							</div>
-							<img src="images/g4.jpg" alt="" />
-						</div>
-					</div>
-					<div class="item">
-						<div class="itemcontent tst6child">
-							<div class="overlay">
-								<h3>Design Head</h3>
-								<p>
-									The creative mind responsible for the visual representation and branding of the club
-								</p>
-							</div>
-							<img src="images/g5.jpg" alt="" />
-						</div>
-					</div>
-					<
-				</div>
-			</div>
-		</div>
-
+		
 		<!--/ GALLERY -->
 
 		<div class="contentblock" id="content">
@@ -278,8 +296,6 @@
 						<img src="images/com.jpg" alt="" class="bdrr9" />
 					</div>
 				</div>
-
-
 			</div>
 		</div>
 
@@ -290,7 +306,7 @@
 				<div class="contactblock flf bdrr9">
 					<h2>Contact</h2>
 					<p>
-						Fill up the form below or Send an email to <a href="mailto:info@yoursitename.com">e2pcvitvellore@gmail.com</a>
+						Fill up the form below or Send an email to <a href="mailto:info@yoursitename.com">e2pc@vit.ac.in</a>
 					</p>
 
 					<div class="formblock flf ccv">
@@ -322,7 +338,7 @@
 					Follow
 					<a href="https://www.instagram.com/e2pc.vit/?hl=en"><span class="fa-brands fa-instagram"></span></a>
 					<a href="https://www.linkedin.com/company/energy-and-environment-club-vit/posts/?feedView=all"><span class="fa-brands fa-linkedin"></span></a>
-					<a href="#"><span class="fa-brands fa-medium"></span></a>
+					<a href="#"><span class="fa-brands fa-globe"></span></a>
 				</div>
 
 			</div>
