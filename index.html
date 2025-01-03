@@ -72,7 +72,14 @@
 					flex: 1 1 100%; /* Full width on smaller screens */
 				}
 			}
-			
+				.gallery-image {
+					padding: 10px; /* Add desired padding value */
+					border-radius: 8px; /* Optional: Adds rounded corners */
+					background-color: #f4f4f4; /* Optional: Background for padding space */
+					max-width: 100%; /* Ensures responsiveness */
+					height: auto; /* Maintain aspect ratio */
+					box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better appearance */
+				}			
 		</style>
 		
 	</head>
@@ -137,12 +144,11 @@
 		<!--/ BANNER -->
 
 		<div class="companylogos flf">
-			<div class="container">
 				<div class="logoswrap flf cch_jsb">
+					<a href=""><img src="" alt=""></a>
 					<a href="https://vit.ac.in/"><img src="images/logos/vit.png" alt="" align="centre"></a>
+					<a href=""><img src="" alt=""></a>
 				</div>
-
-			</div>
 		</div>
 
 		<div class="about flf" id="about">
@@ -165,104 +171,110 @@
 		
 		<!--/ABOUT-->
 
-		<div class="container-centered">
-			<div class="gallery flf" id="gallery">
-				<div class="gallerysliderwrap flf">
-					<div class="galleryslider owl-carousel">
-						<!-- First Column Gallery Items -->
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Rudransh</h3>
-									<p>Chairperson</p>
+		
+		
+
+			<div class="container-centered">
+				<div class="gallery flf" id="gallery">
+					<div class="gallerysliderwrap flf">
+						<div class="galleryslider owl-carousel">
+							<!-- First Column Gallery Items -->
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Rudransh</h3>
+										<p>Chairperson</p>
+									</div>
+									<img src="./images/chair.jpg" alt="" class="gallery-image" />
 								</div>
-								<img src="./images/chair.jpg" alt="" />
+							</div>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Devika</h3>
+										<p>Vice Chairperson</p>
+									</div>
+									<img src="images/vicechair.jpg" alt="" class="gallery-image" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Akshwin</h3>
+										<p>Secretary</p>
+									</div>
+									<img src="images/sec.png" alt="" class="gallery-image" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Claire</h3>
+										<p>Co Secretary</p>
+									</div>
+									<img src="images/cosec.jpg" alt="" class="gallery-image" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Aditi</h3>
+										<p>Technical Head</p>
+									</div>
+									<img src="images/technical.jpg" alt="" class="gallery-image" />
+								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Devika</h3>
-									<p>Vice Chairperson</p>
+					</div>
+				</div>
+			
+				<div class="gallery flf" id="gallery">
+					<div class="gallerysliderwrap flf">
+						<div class="galleryslider owl-carousel">
+							<!-- Second Column Gallery Items -->
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Akriti</h3>
+										<p>Management Head</p>
+									</div>
+									<img src="images/management.jpg" alt="" class="gallery-image" />
 								</div>
-								<img src="images/vicechair.jpg" alt="" />
 							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Akshwin</h3>
-									<p>Secretary</p>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Pooja</h3>
+										<p>Outreach Head</p>
+									</div>
+									<img src="images/outreach.jpg" alt="" class="gallery-image" />
 								</div>
-								<img src="images/sec.png" alt="" />
 							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Claire</h3>
-									<p>Co Secretary</p>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Ritish</h3>
+										<p>Human Resource Head</p>
+									</div>
+									<img src="images/hr.jpg" alt="" class="gallery-image" />
 								</div>
-								<img src="images//cosec.jpg" alt="" />
 							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Aditi</h3>
-									<p>Technical Head</p>
+							<div class="item">
+								<div class="itemcontent tst6child">
+									<div class="overlay">
+										<h3>Sushant</h3>
+										<p>Editorial Head</p>
+									</div>
+									<img src="images/edit.jpg" alt="" class="gallery-image" />
 								</div>
-								<img src="images/te" alt="" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		
-			<div class="gallery flf" id="gallery">
-				<div class="gallerysliderwrap flf">
-					<div class="galleryslider owl-carousel">
-						<!-- Second Column Gallery Items (Only 4 images) -->
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Akriti</h3>
-									<p>Management Head</p>
-								</div>
-								<img src="images/management.jpg" alt="" />
-							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Pooja</h3>
-									<p>Outreach Head</p>
-								</div>
-								<img src="images/outreach.jpg" alt="" />
-							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Ritish</h3>
-									<p>Human Resource Head</p>
-								</div>
-								<img src="images/hr.jpg" alt="" />
-							</div>
-						</div>
-						<div class="item">
-							<div class="itemcontent tst6child">
-								<div class="overlay">
-									<h3>Sushant</h3>
-									<p>Editorial Head</p>
-								</div>
-								<img src="images/edit.jpg" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
+			
+			
+			
 		<!--/ GALLERY -->
 
 		<div class="contentblock" id="content">

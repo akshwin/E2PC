@@ -3,7 +3,7 @@ $(document).ready(function () {
         loop: false, // Disable looping
         margin: 10, // Space between items
         nav: true,  // Enable navigation arrows
-        items: 4,   // Number of visible items
+        items: 5,   // Number of visible items
         autoplay: false, // Disable autoplay if on
     });
 });
