@@ -19,7 +19,7 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
 	    }
 
 	
-		$to = "test@websitetemplates.site";
+		$to = "e2pc@vit.ac.in";
 		$mail_subject = "Contact Query From $name | Message ID ".$timestamp_capture;
 		$mail_message = "
 		<br>

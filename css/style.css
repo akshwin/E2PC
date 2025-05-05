@@ -1,4 +1,3 @@
-	/* Template By: LayoutFlow, URL: https://layoutflow.com/*/
 	*{box-sizing: border-box; -webkit-box-sizing:border-box; padding: 0; outline: 0; margin:0; line-height:normal; }
 	a{text-decoration: none;}
 	li{list-style: none;}
@@ -19,8 +18,6 @@
 	.tst6{transition:0.6s;-webkit-transition:0.6s;}.tst3{transition:0.3s;-webkit-transition:0.3s;}
 	.tst6child *{transition:0.6s;-webkit-transition:0.6s;}
 	/* DEFAULT CSS */
-
-
 
 	.topbar{
 		position: absolute;
@@ -99,6 +96,17 @@
 	.wrap{
 		margin: auto;
 	}
+	nav {
+		display: none;
+		position: fixed;
+		width: 100%; height: 100%;
+		background: rgba(0,0,0,0.8);
+		z-index: 10;
+		left: 0; top: 0;
+		padding:100px 60px;
+		overflow-y: auto;
+	}
+	
 	nav ul{
 		display: flex;
 		flex-wrap: wrap;
@@ -122,11 +130,6 @@
 		background: linear-gradient(to bottom right, #adff2f,#496ffe);
 	}
 	/* HEADER + NAV MENU */
-
-
-
-
-
 	.banner{
 		padding: 300px 0 180px 0;
 		font-family: 'Prata', serif;
@@ -282,11 +285,6 @@
 		margin-bottom: 40px;
 	}
 	/* About */
-
-
-
-
-
 	.gallery{}
 	.gallerysliderwrap{
 		padding:0 20px;
@@ -335,10 +333,6 @@
 		object-position: center;
 	}
 	/* GALLERY */
-
-
-
-
 	.contentblock{
 		float:left;
 		width:100%;
@@ -387,9 +381,6 @@
 		object-position: center;
 	}
 	/* CONTENT BLOCK */
-
-
-
 
 	.contact{
 		padding: 0 0 80px 0;
@@ -463,6 +454,7 @@
 
 	footer{
 		padding: 0 0 70px 0;
+		
 	}
 	.copyright{
 		float: left;
@@ -489,6 +481,3 @@
 		text-decoration: none;
 	}
 	/* FOOTER */
-
-	
-
